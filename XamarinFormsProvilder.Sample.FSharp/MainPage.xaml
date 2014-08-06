@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+					   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+					   x:Class="XFormsPreviewer.MainPage">
+    <StackLayout>
+        <Label x:Name="text1"  Text="Xamrin.Forms Previewer by F# TypeProvider"/>
+        <Button x:Name="btn1"  Text="Preview" Clicked="OnClickPreview" />
+        <Button x:Name="btn2" Text="Grid Preview" Clicked="OnClickGridPreview" />
+        <Button x:Name="btn3" Text="AbsoluteLayout Preview" Clicked="OnClickAbsoluteLayoutPreview" />
+        <Button Text="Slider Preview" Clicked="OnClickSliderPreview" />
+        <Button Text="SliderTrans Preview" Clicked="OnClickSliderTransPreview" />
+        <Button Text="Keyboard Preview" Clicked="OnClickKeyboardPreview" />
+        <Button Text="load sample 0" Clicked="OnClickSample0" />
+    </StackLayout>
+</ContentPage>
